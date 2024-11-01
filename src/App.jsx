@@ -34,6 +34,52 @@ function App() {
           - Modern Design <br />
           - All Rooms Ensuite <br />
         `
+      },
+      {
+        id: 'OMGBL002',
+        featured: true,
+        status: {
+            forSale: true,
+            forRent: false
+        },
+        address: 'Lekki County Ikota Lekki Lagos',
+        name: '2 Bedroom Fully Detached Duplex With Bq',
+        beds: 5,
+        baths: 6,
+        toilets: 6,
+        price: 350000000,
+        displayImg: ListingOneOne,
+        images: [ListingOneOne, ListingOneTwo],
+        description: `
+          MODERN 2 BEDROOM FULLY DETACHED HOME FOR SALE!!! <br /><br />
+          Features: <br />
+          - New <br />
+          - Modern Design <br />
+          - All Rooms Ensuite <br />
+        `
+      },
+      {
+        id: 'OMGBL003',
+        featured: true,
+        status: {
+            forSale: true,
+            forRent: false
+        },
+        address: 'Lekki County Ikota Lekki Lagos',
+        name: '4 Bedroom Fully Detached Duplex With Bq',
+        beds: 5,
+        baths: 6,
+        toilets: 6,
+        price: 350000000,
+        displayImg: ListingOneOne,
+        images: [ListingOneOne, ListingOneTwo],
+        description: `
+          MODERN 4 BEDROOM FULLY DETACHED HOME FOR SALE!!! <br /><br />
+          Features: <br />
+          - New <br />
+          - Modern Design <br />
+          - All Rooms Ensuite <br />
+        `
       }
     ]
   })
