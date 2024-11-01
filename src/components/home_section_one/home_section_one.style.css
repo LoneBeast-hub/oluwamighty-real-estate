@@ -1,0 +1,22 @@
+.home_section_one_bg {
+    background-image: url('../../assets/home_section_one.jpg');
+}
+
+@keyframes slide {
+    0% {
+      opacity: 0;
+      transform: translateY(-100%);
+    }
+    50% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    100% {
+      opacity: 0;
+      transform: translateY(100%);
+    }
+}
+
+.animate-slide {
+    animation: slide 3s infinite;
+}  
